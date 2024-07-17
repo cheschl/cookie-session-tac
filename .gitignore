@@ -1,4 +1,42 @@
-coverage/
-node_modules/
-npm-debug.log
-package-lock.json
+# vscode
+.history
+
+# Node.js specific
+node_modules
+
+# Intellij specific
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/**/*
+.idea/dictionaries
+.idea/inspectionProfiles
+.idea/.name
+.idea/deployment.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/libraries/node_modules.xml
+.idea/copyright
+*.iml
+
+# EditPlus specific
+*.bak
+
+# Project specific
+logs/**/*
+!logs/.gitkeep
+tmp
+
+# Cache
+.sass-cache
+
+# Bower specific
+public/bower_components
+public/node_modules
+
+
+# extern folder
+extern/**/*
+!extern/.gitkeep
+
+#dist folder
+/dist
