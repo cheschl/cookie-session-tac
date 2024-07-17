@@ -10,8 +10,8 @@
     "session"
   ],
   "dependencies": {
-    "cookies": "0.8.0",
-    "debug": "2.6.9",
+    "cookies": "^0.9.1",
+    "debug": "^4.3.5",
     "on-headers": "~1.0.2"
   },
   "devDependencies": {
